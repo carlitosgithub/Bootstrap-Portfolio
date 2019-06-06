@@ -38,7 +38,7 @@ a {
 /* footer */
 
 footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -120,5 +120,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #3a7572;
+  background-color: #191b1b;
 }
