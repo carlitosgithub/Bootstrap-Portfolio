@@ -29,9 +29,9 @@ h1{
 }
 
 
-*.container-fluid{
+.container-fluid{
   width: 100%;
-  border-bottom: 8px solid #4aaaa5;/
+  border-bottom: 8px solid #4aaaa5;
 }
 /* footer */
 
@@ -151,6 +151,16 @@ input[type=submit]:hover {
     clear: both;
   }
 
- 
+  ul.nav{
+    text-align: center;
+  }
+  ul.nav li{
+    display:inline-block;
+  }
+  #navbar-brand{
+        text-align: center;
+  }
 } 
+
+
   
