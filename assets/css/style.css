@@ -29,9 +29,9 @@ h1{
 }
 
 
-.container-fluid{
+*.container-fluid{
   width: 100%;
-  border-bottom: 8px solid #4aaaa5;
+  border-bottom: 8px solid #4aaaa5;/
 }
 /* footer */
 
@@ -120,3 +120,37 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #191b1b;
 }
+@media screen and (max-width: 640px) {
+ 
+ .container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+.col-lg-4 {
+  width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.img-responsive{
+  width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    clear: both;
+
+}
+
+ .row {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+ 
+} 
+  
