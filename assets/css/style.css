@@ -162,6 +162,8 @@ input[type=submit]:hover {
     margin-left: 178px; 
     font-size: 30px;
   } 
-
+  footer {
+    position: relative;
+  }
 }
   
